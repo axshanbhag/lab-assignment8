@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Las Positas College Enrollment Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Las Positas College Enrollment Form
+    <p>Complete the registration form with attention to detail</p>
+  </h1>
+  <div class="stem">STEM</div>
+</div>
+
+<div class="form">
+  <form>
+    <div class="question">
+      <label>Full Name</label>
+      <div class="input">
+        <div style="margin-top: 5px; display: flex; gap: 10px;">
+          <input type="text" name="firstname" style="flex: 1;">
+          <input type="text" name="lastname" style="flex: 1;">
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <div class="textunderq" style="flex: 1;">First Name</div>
+          <div class="textunderq" style="flex: 1;">Last Name</div>
+        </div>
+      </div>
+    </div>
+    <div class="question">
+      <label>Address</label>
+      <div class="input">
+        <input type="text" name="streetaddress">
+        <div class="textunderq">Street Address</div>
+        <div style="margin-top: 5px; display: flex; gap: 10px;">
+          <input type="text" name="city" style="flex: 1;">
+          <input type="text" name="stateprovince" style="flex: 1;">
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <div class="textunderq" style="flex: 1;">City</div>
+          <div class="textunderq" style="flex: 1;">State/Province</div>
+        </div>
+      </div>
+    </div>
+<div class="question">
+  <label>Birth Date</label>
+  <div class="input">
+    <div style="margin-top: 5px; display: flex; gap: 10px;">
+      <input type="text" name="month" style="flex: 1;">
+      <input type="text" name="day" style="flex: 1;">
+      <input type="text" name="year" style="flex: 1;">
+    </div>
+    <div style="display: flex; gap: 10px;">
+      <div class="textunderq" style="flex: 1;">Month</div>
+      <div class="textunderq" style="flex: 1;">Day</div>
+      <div class="textunderq" style="flex: 1;">Year</div>
+    </div>
+  </div>
+</div>
+<div class="question">
+  <label>Gender</label>
+  <div class="genders">
+    <label><input type="radio" name="gender" value="male"> Male</label>
+    <label><input type="radio" name="gender" value="female"> Female</label>
+    <label><input type="radio" name="gender" value="na"> N/A</label>
+  </div>
+</div>
+<div class="question">
+  <label>Student Number</label>
+  <div class="input">
+    <input type="text" name="studentnumber">
+    <div class="textunderq">Phone Number</div>
+  </div>
+</div>
+<div class="question">
+  <label>Student Email</label>
+  <div class="input">
+    <input type="email" name="studentemail">
+    <div class="textunderq">example@example.com</div>
+  </div>
+</div>
+<div class="question">
+  <label>Company</label>
+  <div class="input">
+    <input type="text" name="company">
+    <div class="textunderq">Company</div>
+  </div>
+</div>
+<div class="question">
+  <label>Courses</label>
+  <div class="courses">
+    <label><input type="checkbox" name="courses" value="english101"> English 101</label>
+    <label><input type="checkbox" name="courses" value="english102"> English 102</label>
+    <label><input type="checkbox" name="courses" value="creativewriting1"> Creative Writing 1</label>
+    <label><input type="checkbox" name="courses" value="creativewriting2"> Creative Writing 2</label>
+    <label><input type="checkbox" name="courses" value="history101"> History 101</label>
+    <label><input type="checkbox" name="courses" value="history102"> History 102</label>
+    <label><input type="checkbox" name="courses" value="math101"> Math 101</label>
+    <label><input type="checkbox" name="courses" value="math102"> Math 102</label>
+    <label><input type="checkbox" name="courses" value="windows8"> Windows 8</label>
+  </div>
+</div>
+<div class="question">
+  <label>Additional Comments</label>
+  <div class="input">
+    <textarea name="additionalcomments" rows="4"></textarea>
+  </div>
+</div>
+<div class="signature">
+  <div class="question">
+    <label>Date:</label>
+    <input type="date" name="date">
+  </div>
+  <div class="question">
+    <label>Signature:</label>
+    <div class="input">
+      <textarea name="additionalcomments" rows="4"></textarea>
+      <div class="textunderq">Your Name</div>
+    </div>
+  </div>
+</div>
+  <input type="submit" value="Click Here To Submit">
+  </form>
+</div>
+</body>
+</html>
