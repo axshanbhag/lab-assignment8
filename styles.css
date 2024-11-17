@@ -1,0 +1,99 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightpink;
+}
+.header {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  height: 75px;
+}
+.header h1 {
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  background-color: purple;
+  font-size: 24px;
+  color: white;
+  width: 60%;
+  top: 10px;
+  left: 0px;
+}
+.header p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+.header .stem {
+  position: absolute;
+  top: 37.5px;
+  right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+.form {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+}
+.question {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+label {
+  width: 150px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.textunderq {
+  font-size: 14px;
+  font-style: italic;
+  color: black;
+  margin-top: 3px;
+  flex: 1;
+}
+.genders {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-items: center;
+}
+.signature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  gap: 10px;
+}
+input[type="submit"] {
+  background-color: #80217d;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 20px;
+}
